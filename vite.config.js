@@ -7,12 +7,12 @@ export default defineConfig({
   server: {
     port:3002,
     strictPort: true,
+    host: '0.0.0.0'
   },
-  server: {
-    port: 3002,
-    strictPort: true,
-    host: true,
-    origin: 'http://0.0.0.0:3002'
-
-  },
+  // server: {
+  //   port: 3002,
+  //   strictPort: true,
+  //   host: true,
+  //   origin: 'http://0.0.0.0:3002'
+  // },
 })
